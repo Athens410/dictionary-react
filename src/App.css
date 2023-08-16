@@ -1,6 +1,6 @@
 .App {
   text-align: center;
- background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
 
 }
 ul{
@@ -8,9 +8,10 @@ ul{
 }
 .foot{
   font-size: 22px;
+  color: #885df1;
 }
 .nav-link{
-  color: rgb(9, 203, 2);
+  color: #885df1;
 }
 
 .App-logo {
@@ -23,7 +24,10 @@ ul{
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.container{
+border: 2px solid #885df1;
 
+}
 .App-header {
  
   min-height: 100vh;
@@ -32,7 +36,8 @@ ul{
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  
+  
 }
 
 .App-link {

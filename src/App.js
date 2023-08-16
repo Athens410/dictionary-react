@@ -2,13 +2,38 @@
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-
+import Dictionary from "./Dictionary";
 export default function App() {
   return (
     <div className="App">
+   <div class="container"> 
+
+    <main><Dictionary /></main> 
       <header className="App-header">
-       <button type="button" class="btn btn-primary">Primary</button>
+      
       </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <footer class="foot">⚡️👩🏽‍💻This website was coded by, Athenah Coucean</footer>
 <ul class="nav justify-content-center mt-5">
     <li class="nav-item">
@@ -26,7 +51,7 @@ export default function App() {
     </li>
 
 </ul>
-
+</div>
     
     </div>
 
