@@ -1,6 +1,13 @@
 .App {
   text-align: center;
-background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+background: radial-gradient(666px at 0.4% 48%, rgb(202, 204, 227) 0%, rgb(89, 89, 99) 97.5%);
+
+}
+
+.img-fluid{
+max-width: 400px;
+display: block;
+margin: 0 auto;
 
 }
 ul{
@@ -13,21 +20,37 @@ ul{
 .nav-link{
   color: #885df1;
 }
+.time{
+  border: 3px solid#885df1;
+  border-radius: 7px;
+  margin: 66px;
+  padding: 33px;
+}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
 .container{
 border: 2px solid #885df1;
+animation: glow 4s infinite linear;
 
 }
+@keyframes glow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 10px rgba(136, 93, 241, 0.5);
+  }
+
+  50% {
+    box-shadow: 0 0 20px rgb(21, 255, 247), 0 0 30px rgba(136, 93, 241, 0.5);
+  }
+}
+
+
 .App-header {
  
   min-height: 100vh;
@@ -44,11 +67,5 @@ border: 2px solid #885df1;
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
