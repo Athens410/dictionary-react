@@ -35,14 +35,14 @@ ul{
 
 .container{
 border: 2px solid #885df1;
-animation: glow 4s infinite linear;
+animation: glow 6s infinite linear;
 
 }
 @keyframes glow {
 
   0%,
   100% {
-    box-shadow: 0 0 10px rgba(136, 93, 241, 0.5);
+    box-shadow: 0 0 10px rgb(69, 0, 244);
   }
 
   50% {
@@ -65,6 +65,14 @@ animation: glow 4s infinite linear;
 
 .App-link {
   color: #61dafb;
+}
+
+.img-fluid{
+
+margin-top: 40px;
+display: block;
+margin-bottom: 33px;
+
 }
 
 
