@@ -1,4 +1,4 @@
-import Phonetics from "./Phonetics.css";
+import  "./Phonetics.css";
 
 export default function Phonetic(props){
 console.log(props.phonetic);

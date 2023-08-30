@@ -1,5 +1,5 @@
 import React from "react";
-import Synonym from "./Synonym.css";
+import  "./Synonym.css";
 
 export default function Synonyms(props) {
   if (props.synonyms) {
