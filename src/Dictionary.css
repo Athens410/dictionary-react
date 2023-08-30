@@ -6,3 +6,28 @@
     padding: 44px;
     margin-top: 100px;
 }
+.Dictionary section{
+background: aliceblue;
+padding: 30px;
+border-radius: 17px;
+box-shadow: 0px 5px 15px rgba(0 0 0 /20%);
+margin: 20px;
+
+
+}
+.Dictionary input{
+
+width:100%;
+padding: 6px 4px;
+border: 2px solid #ddd;
+border-radius: 6px;
+color: #333;
+
+
+}
+
+.Dictionary .hint{
+font-size: 11px;
+margin-top: 5px;
+
+}

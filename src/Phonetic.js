@@ -1,4 +1,4 @@
-
+import Phonetics from "./Phonetics.css";
 
 export default function Phonetic(props){
 console.log(props.phonetic);
@@ -13,9 +13,10 @@ Listen
 
 </a>
 <br  />
+<br />
 
+<span className="text"> {props.phonetic.text} </span>
 
-{props.phonetic.text}
 
 
 

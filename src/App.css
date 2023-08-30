@@ -3,6 +3,24 @@
 background: radial-gradient(666px at 0.4% 48%, rgb(202, 204, 227) 0%, rgb(89, 89, 99) 97.5%);
 
 }
+.purple-theme{
+
+  background: rgb(179, 146, 250);
+  
+}
+
+.track{
+
+  margin: 0 auto;
+padding: 12px;
+border-radius: 12px;
+background: linear-gradient(90deg, rgba(140, 140, 140, 1) 0%, rgba(203, 184, 253, 1) 100%);
+border: 2px #61dafb;
+box-shadow: 1px 1px 5px;
+margin-bottom: 22px;
+
+
+}
 
 .img-fluid{
 max-width: 400px;
@@ -37,6 +55,7 @@ ul{
 border: 2px solid #885df1;
 animation: glow 6s infinite linear;
 
+
 }
 @keyframes glow {
 
@@ -46,7 +65,7 @@ animation: glow 6s infinite linear;
   }
 
   50% {
-    box-shadow: 0 0 20px rgb(21, 255, 247), 0 0 30px rgba(136, 93, 241, 0.5);
+    box-shadow: 0 0 50px rgb(0, 255, 247), 0 0 30px rgb(94, 32, 252);
   }
 }
 
