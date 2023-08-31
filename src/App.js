@@ -10,6 +10,7 @@ import Dictionary from "./Dictionary";
 
 
 
+
 export default function App() {
 
 let [purpleTheme, setPurpleTheme] = useState(false);

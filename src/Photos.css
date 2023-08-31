@@ -1,0 +1,11 @@
+.Photos img {
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .Photos img {
+        grid-template-columns: 1fr;
+    }
+}
